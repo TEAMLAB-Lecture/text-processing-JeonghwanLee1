@@ -90,4 +90,3 @@ class TestTextProcessing(unittest.TestCase):
         test_str = "abcdefghijklmnopqrstuvwxyz"
         pred = tp.no_vowels(test_str)
         self.assertEqual(pred, "bcdfghjklmnpqrstvwxyz")
-unittest.main()
